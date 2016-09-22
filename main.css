@@ -1,0 +1,70 @@
+
+
+.cover {
+	width: 100%;
+	margin: 0;
+	padding: 0px 0px;
+	line-height: 0;
+}
+
+.paper {
+	width: 100%;
+	float: left;
+}
+
+/* fonts */
+h2 {
+	font-family: "Luckiest Guy";
+	font-size: 30px;
+	padding-top: 20px;
+}
+
+p {
+	font-family: "Open Sans";
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.sig1 {
+	font-family: "Nothing You Could Do";
+	font-size: 24px;
+	text-align: right;
+	margin-right: 50px;
+}
+
+/* main divs */
+
+/* .bkg {
+	width: 100%;
+	background-color: #abdded; } */
+
+
+.box {
+	margin-left: 200px;
+	margin-right: 200px;
+	padding: 30px;
+}
+
+hr {
+	height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;	width: 65%;
+}
+
+#container {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: #c1782f;
+}
+
+footer {
+	margin: 100px auto 0 auto;
+	font-size: 12px;
+	background-color: #e5e5e5;
+	padding: 20px 0 20px 0;
+	text-align: center;
+	}
