@@ -7,10 +7,6 @@
 	line-height: 0;
 }
 
-.paper {
-	width: 100%;
-	float: left;
-}
 
 /* fonts */
 h2 {
@@ -29,20 +25,14 @@ p {
 	font-family: "Nothing You Could Do";
 	font-size: 24px;
 	text-align: right;
-	margin-right: 50px;
+	margin-right: 20px;
 }
 
-/* main divs */
 
-/* .bkg {
-	width: 100%;
-	background-color: #abdded; } */
-
-
-.box {
-	margin-left: 200px;
-	margin-right: 200px;
-	padding: 30px;
+#box {
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 10px;
 }
 
 hr {

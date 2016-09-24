@@ -1,7 +1,22 @@
+// fade scroll -- doesn't work yet //
+
 $(function () {
-    $('#container').highcharts({
+    $('#box').css({'opacity':( 100-$(window).scrollTop() )/100});
+
+});
+
+$(window).scroll(function(i){
+    var scrollVar = $(window).scrollTop();
+    $('#box .inner').children('box').css({'top': .7*scrollVar });
+    $('#box .inner').children('box').css({'opacity':( 100-scrollVar )/100});
+})
+
+
+// chart //
+$(function () {
+    $('#chart').highcharts({
         chart: {
-            renderTo: 'container',
+            renderTo: 'chart',
             type: 'spline',
         },
         title: {
