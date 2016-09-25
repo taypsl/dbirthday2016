@@ -16,6 +16,11 @@
 	float: left;
 }
 
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
 /* fonts */
 h2 {
 	font-family: "Luckiest Guy";
@@ -38,53 +43,15 @@ p {
 
 /* main divs */
 
-
 .box {
 	margin-left: 100px;
 	margin-right: 100px;
 	padding: 30px;
 }
 
-/* mobile */
-@media (max-width: 600px) and (min-width: 375px) {
-  .box {
-    margin-left: 50px;
-    margin-right: 50px;
-  }
 
-  .cover {
-	display: none;
-	}
-  
-  .cover2 {
-	display: inline-block;
-	width: 100%;
-  }
+/* */
 
-}  
-
-@media (max-width: 375px) {
-  .box {
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: 10px;
-  }
-
-  #music {
-  	margin-left: auto;
-  	margin-right: auto;
-  }
-
-  .cover {
-  	display: none;
-  }
-
-  .cover2 {
-	display: inline-block;
-	width: 100%;
-
-  }
-}  
 
 hr {
 	height: 6px;
@@ -110,3 +77,99 @@ footer {
 	padding: 20px 0 20px 0;
 	text-align: center;
 	}
+
+/* activities grids */
+
+
+.icon {				/* this should apply to all icons -- sets the size */
+	width: 250px;
+	height: 250px;
+}
+
+.kickball {
+    background: url(images/kickball.png) no-repeat;
+    background-size: 250px 250px;
+}
+
+.kickball:hover {
+    background: url(images/kickball2.png) no-repeat;
+    background-size: 250px 250px;
+    width: 0;
+    height: 0;
+    padding: 250px 0 0 250px;
+}
+
+.basketball {
+    background: url(images/basketball.png) no-repeat;
+    background-size: 250px 250px;
+}
+
+.basketball:hover {
+    background: url(images/basketball2.png) no-repeat;
+    background-size: 250px 250px;
+    width: 0;
+    height: 0;
+    padding: 250px 0 0 250px;
+}
+
+.whiffle {
+    background: url(images/whiffle.png) no-repeat;
+    background-size: 250px 250px;
+}
+
+.whiffle:hover {
+    background: url(images/whiffle2.png) no-repeat;
+    background-size: 250px 250px;
+    width: 0;
+    height: 0;
+    padding: 250px 0 0 250px;
+}
+
+.pizza {
+    background: url(images/pizza.png) no-repeat;
+    background-size: 250px 250px;
+}
+
+.pizza:hover {
+    background: url(images/pizza2.png) no-repeat;
+    background-size: 250px 250px;
+    width: 0;
+    height: 0;
+    padding: 250px 0 0 250px;
+}
+
+.cake {
+    background: url(images/cake.png) no-repeat;
+    background-size: 250px 250px;
+}
+
+.cake:hover {
+    background: url(images/cake2.png) no-repeat;
+    background-size: 250px 250px;
+    width: 0;
+    height: 0;
+    padding: 250px 0 0 250px;
+}
+
+
+/* food */
+
+
+.buttonBox {
+	margin: 40px auto 40px auto;
+
+}
+
+a.button {
+    background-color: #517f40;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    padding: 20px 40px 20px 40px;
+
+}
+
+a.button:hover {
+	background-color: #278eaa;
+}
+
