@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+
+
 .row, .container {
   max-width: 1000px;
   padding-left: 20px;
@@ -30,7 +32,6 @@
 }
 
 
-
 /* Mobile defaults for the grid */
 .col-4, .col-6 {
   width: 100%;
@@ -38,7 +39,7 @@
 
 
 /* Non-mobile, grid */
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 800px) {
   /* 4 columns */
   .col-4 {
     width: 33.33%;
@@ -50,7 +51,7 @@
 }
 
 /* mobile margin adjustments */
-@media (max-width: 600px) and (min-width: 375px) {
+@media (max-width: 800px) and (min-width: 375px) {
   .box {
     margin-left: 50px;
     margin-right: 50px;
@@ -61,7 +62,7 @@
 	}
   
   .cover2 {
-	display: inline-block;
+	display: block;
 	width: 100%;
   }
 

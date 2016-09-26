@@ -1,31 +1,29 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
 
+.header {
+	background-color: #46B6DB;
+	padding-bottom: 5px;
+}
 
 .cover {
 	width: 100%;
-	margin: 0;
-	padding: 0px 0px;
-	line-height: 0;
+	display: block;
 }
 
 .cover2 {
-	display: none;
+	display: none; /* see grid.css file for mobile settings */
 }
 
-.paper {
-	width: 100%;
-	float: left;
-}
-
-img {
-	max-width: 100%;
-	max-height: 100%;
-}
 
 /* fonts */
 h2 {
 	font-family: "Luckiest Guy";
 	font-size: 30px;
 	padding-top: 20px;
+	text-align: left;
 }
 
 p {
@@ -43,21 +41,46 @@ p {
 
 /* main divs */
 
+
 .box {
 	margin-left: 100px;
 	margin-right: 100px;
-	padding: 30px;
+	padding: 30px 30px 0 30px;
 }
 
-
-/* */
-
-
-hr {
-	height: 6px;
-	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
-    border: 0;	width: 75%;
+.container1 {
+	background-color: #a74f43;
+	width: 100%;
+	padding: 5px 0 25px 0;
 }
+
+.container2 {
+	background-color: #fbb03b;
+	width: 100%;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.container3 {
+	background-color: #ffffff;
+	width: 100%;
+	padding-bottom: 50px;
+}
+
+.container4 {
+	background-color: #60b480;
+	width: 100%;
+	padding-bottom: 50px;
+}
+
+.container5 {
+	background-color: #546977;
+	width: 100%;
+	padding-bottom: 100px;
+}
+
+/* activities row 2 */
+
 
 /* weather */
 #chart {
@@ -70,13 +93,6 @@ a {
 	color: #c1782f;
 }
 
-footer {
-	margin: 100px auto 0 auto;
-	font-size: 12px;
-	background-color: #e5e5e5;
-	padding: 20px 0 20px 0;
-	text-align: center;
-	}
 
 /* activities grids */
 
@@ -84,16 +100,19 @@ footer {
 .icon {				/* this should apply to all icons -- sets the size */
 	width: 250px;
 	height: 250px;
+	display: inline-block;
 }
 
 .kickball {
     background: url(images/kickball.png) no-repeat;
     background-size: 250px 250px;
+    background-color: #ce7806;
 }
 
 .kickball:hover {
     background: url(images/kickball2.png) no-repeat;
     background-size: 250px 250px;
+    background-color: #278eaa;
     width: 0;
     height: 0;
     padding: 250px 0 0 250px;
@@ -102,11 +121,13 @@ footer {
 .basketball {
     background: url(images/basketball.png) no-repeat;
     background-size: 250px 250px;
+    background-color: #ce7806;
 }
 
 .basketball:hover {
     background: url(images/basketball2.png) no-repeat;
     background-size: 250px 250px;
+    background-color: #24a366;
     width: 0;
     height: 0;
     padding: 250px 0 0 250px;
@@ -115,11 +136,14 @@ footer {
 .whiffle {
     background: url(images/whiffle.png) no-repeat;
     background-size: 250px 250px;
+    background-color: #ce7806;
+
 }
 
 .whiffle:hover {
     background: url(images/whiffle2.png) no-repeat;
     background-size: 250px 250px;
+    background-color: #734ead;
     width: 0;
     height: 0;
     padding: 250px 0 0 250px;
@@ -128,11 +152,14 @@ footer {
 .pizza {
     background: url(images/pizza.png) no-repeat;
     background-size: 250px 250px;
+    background-color: #ce7806;
+
 }
 
 .pizza:hover {
     background: url(images/pizza2.png) no-repeat;
     background-size: 250px 250px;
+    background-color: #d63030;
     width: 0;
     height: 0;
     padding: 250px 0 0 250px;
@@ -141,11 +168,13 @@ footer {
 .cake {
     background: url(images/cake.png) no-repeat;
     background-size: 250px 250px;
+    background-color: #ce7806;
 }
 
 .cake:hover {
     background: url(images/cake2.png) no-repeat;
     background-size: 250px 250px;
+    background-color: #2e5bd8;
     width: 0;
     height: 0;
     padding: 250px 0 0 250px;
@@ -157,11 +186,10 @@ footer {
 
 .buttonBox {
 	margin: 40px auto 40px auto;
-
 }
 
 a.button {
-    background-color: #517f40;
+    background-color: #75d397;
     text-decoration: none;
     color: white;
     font-size: 1.2em;
@@ -170,6 +198,18 @@ a.button {
 }
 
 a.button:hover {
-	background-color: #278eaa;
+	background-color: #4f8e65;
+	color: #e0e0e0;
 }
+
+
+/* footer */ 
+footer {
+	margin: 0 auto 0 auto;
+	font-size: 12px;
+	background-color: #394b59;
+	color: #e0e0e0;
+	padding: 20px 0 20px 0;
+	text-align: center;
+	}
 
